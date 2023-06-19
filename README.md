@@ -2,7 +2,9 @@
 
  ## 💻 Project
 
-Desktop application for tool management and booking.
+Desktop application that aims to manage a warehouse. Registration of technicians and tools with validations, and consultation or removal of the registered ones.
+Graphical interface created with Tkinter and SQLite database integration.
+User and password validation for both login and registration, and different functionalities available for each type of logged in user (technician or admin).
 
 The project was developed as the final project of the first semester of the undergraduate degree in Full Stack development.
 </p>
@@ -19,7 +21,7 @@ List of technologies used in the project:
 
 1. Login with user authentication
 2. Admin with power to Enroll/Delete Tools
-3. Admin with power to register/delete technicians
+3. Admin with power to Register/Delete technicians
 4. Validation requirements of the Registration fields
 5. Technician with the power of Tool Consultation
 6. Full-featured Graphical Interface
@@ -27,20 +29,7 @@ List of technologies used in the project:
 
 
 ## Running the project
-Download the project files and install the following modules by running the commands:
-
-pip install tkinter
-
-pip install tkinter.ttk
-
-pip install sqlite3
-
-pip install os
-
-pip install sys
-
---------------------------------------------------
-- Run the login.py file to open the program.
+Download the project files and run the login.py to open the program.
 
 1. Technician's test login:
 - username:  MCKB
